@@ -1,11 +1,11 @@
 ToDo:
 
-Completed Tasks 1-5
-1.	Read excel file and create lists. 
-2.	List 1 for Ticker Symbols. 
-3.	List 2 for Shoe Sizes. 
-4.	Use Ticker Symbol to get correct HTML page for specific shoe colorway.
-5.	Find a method to use the Shoe Size to update the page for specific size in colorway searched in previous step.
+Completed Tasks 1-5~~
+~~1.	Read excel file and create lists.~~ 
+~~2.	List 1 for Ticker Symbols.~~
+~~3.	List 2 for Shoe Sizes.~~
+~~4.	Use Ticker Symbol to get correct HTML page for specific shoe colorway.~~
+~~5.	Find a method to use the Shoe Size to update the page for specific size in colorway searched in previous step.~~
 
 Remaining Tasks 6-8
 6.	Use beautiful soup or selenium and scrape the HTML using CSS class for “Last Sale” “Lowest Ask” and “Highest Bid”.
