@@ -1,3 +1,5 @@
+<html>
+
 ToDo:
 
 Completed Tasks 1-5~~
@@ -13,3 +15,4 @@ Remaining Tasks 6-8
 8.	Loop through back to the next Ticker Symbol and Size and repeat this loop until all Ticker Symbol and Size combinations have been searched and all 
         “Last Sale” “Lowest Ask” and “Highest Bid” values have been extracted and updated in the proper cells in the excel spreadsheet.
 
+</html>
