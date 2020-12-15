@@ -1,3 +1,4 @@
+
 #Christopher Anderson
 #I.D. 00218730
 #12/13/2020
@@ -40,16 +41,27 @@ for i in url_list:
     print(i)
 
 #concatenate search url with ticker symbol to create a search url for specific colorway
-stockx = 'https://stockx.com/search/sneakers?s=AJ1MS-WBRSGS'
+stockx = 'https://stockx.com/search/sneakers?s=JB-JO1MBBU'
 url = stockx
 
 #selenium navigate to link and open shoe info page
 browser = webdriver.Chrome()
 browser.get(stockx)
 browser.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div[2]/div[3]/div/div/div[2]/div[2]/div[2]/div[2]/div[1]/div/a/div[1]/div/div').click()
-time.sleep(3)
+time.sleep(5)
 browser.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div[2]/span/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div/div/button').click()
+time.sleep(4)
+resultSet = browser.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div[2]/span/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div/div/div/div/div/div[2]/ul')
+options = resultSet.find_elements_by_tag_name("li")
+for option in options:
+    print(option.text)
 
+#browser.find_element_by_xpath("//*[contains(@class, 'list-unstyled sneakers')]/ul/li[contains(., '10.5')]").click()
+
+#browser.find_element_by_link_text('9').click()
+
+
+#browser.find_element_by_xpath('/html/body/div[1]/div[1]/div[2]/div[2]/span/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div/div/div/div/div/div[2]/ul/li[6]').click()
 
 #save for later
 #print(url_list[0])
