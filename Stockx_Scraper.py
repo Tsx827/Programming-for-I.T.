@@ -2,7 +2,7 @@
 #I.D. 00218730
 #12/18/2020
 #Programming for I.T.
-#Final Project - Stockx Web Scraper - Searches Stockx using Ticker Symbol, extracts price data and writes to excel.
+#Final Project - Stockx Web Scraper - Searches Stockx using Ticker Symbol and Shoe Size, extracts price data and writes to excel.
 
 #modules/dependencies
 import pandas as pd
