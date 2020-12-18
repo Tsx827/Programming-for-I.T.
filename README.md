@@ -5,7 +5,7 @@ CIS – 153 01A<br>
 Description:<br>
 This program is used to scrape StockX for Last Sale, Highest Bid and Lowest Ask on specific colorway and size of shoe. It scans an excel file for a unique identifier known as a “Ticker Symbol” and scans the “Size” then uses Selenium to navigate and extract pricing data. 
 
-Program Operation: 
+Program Operation: <br>
 	To use the program, you will need to have the following modules installed for Python: 
 1.	pandas
 2.	time
